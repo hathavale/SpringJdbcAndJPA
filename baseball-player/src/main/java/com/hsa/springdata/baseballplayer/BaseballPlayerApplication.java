@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 public class BaseballPlayerApplication implements CommandLineRunner {
 	
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
-	SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
+//	SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
 
 	
 	@Autowired
